@@ -1,0 +1,482 @@
+/* Applying lato font to the headings and nav items */
+h1,h2,h3,h4,h5,h6,header,nav ul li{
+    font-family: 'lato',sans-serif;
+    font-size: 1em;
+}
+
+/* Applying Karla font to the body text and buttons */
+body,p,button{
+    font-family: 'karla', sans-serif;
+    font-size: 1.2em;
+}
+
+body{
+    background-color: #f3f0e9;
+    height: auto;
+    width: 100%;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#header img {
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    animation: fadeIn 2s ease-in-out;
+    font-size: large;
+}
+
+#header{
+    background-color: #000;
+    position: relative;
+    z-index: 160;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 30px;
+    list-style: none;
+    margin: 15px 15px;
+    margin-bottom: 0;
+}
+
+#experience {
+    background-image: url('../images/hero-background.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 160vh;
+    padding: 50px;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text content */
+}
+#experience::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 174vh;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with 40% opacity */
+}
+.experience-like h1 {
+    margin-top: 250px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+#experience h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#experience p{
+    color: white;
+    font-weight: bold;
+    margin-top: 200px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.menu-button{
+    margin-right: 300px;
+    margin-top: 250px;
+    background-color: #fff;
+    justify-content: center;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 2em;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 0;
+    transition: background-color 0.3s,color 0.3s;
+}
+
+.menu-button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.menu-button:focus{
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+ .image-item img{
+    width: 100%;
+    height: auto;
+    display: block;
+ }
+
+h4{
+    color: #d69e3d;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.Welcome,h3{
+    color: #d69e3d;
+    margin-top: 50px;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.Welcome,h2{
+    float: left;
+    margin-bottom: 40px;
+    font-size: 1.7em;
+    color: #000;
+}
+.welcome img{
+    height: auto;
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#trade-icon-id{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+h6{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.trade-icon{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.goods-icon{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+#goods-icon-id{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.goods-icon,h1{
+    color: #000;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.made-icon{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+#made-icon-id{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.made-icon,#made-with-love-text{
+        color: #000;
+        margin-top: 70px;
+        text-align: center;
+        margin-bottom: 0px;
+}
+
+.made-icon p{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#made-with-love-text{
+    font-weight: bold;
+}
+
+.bg-menu-location{
+    position: relative;
+    background-image: url('../images/coffee-shop.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3); /* Black with 30% opacity */
+}
+
+ #our-menu{
+    margin-bottom: 0px;
+    text-align: center;
+    color: #d69e3d;
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.menu-location #menu #our-menu{
+    padding-top: 120px;
+}
+
+#explore-text{
+    margin-top: 0px;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+}
+
+
+.location-button{
+    font-weight: bold;
+    margin-bottom: 50px;
+   justify-content: center;
+}
+
+#explore-text{
+    text-align: center;
+}
+
+.menu-button{
+    margin-left: 300px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+#location-heading{
+    color: #d69e3d;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#nearest-shop{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.location-button{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    padding: 15px 30px;
+    font-size: 2em;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 0;
+    border: 4pt solid white;
+    transition: background-color 0.3s,color 0.3s;
+    margin-top: 100px;
+   margin-left: 300px;
+}
+
+.location-button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.location-button:focus{
+    background-color: blue;
+    color: #000;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.people-making-coffee{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-us{
+    margin-top: 0px;
+    font-size: 2em;
+}
+
+#girl-making-coffee-with-focus{
+    height: auto;
+    width: 100%;
+}
+
+#about-us-heading{
+   font-weight: bold;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   color: #d69e3d;
+}
+
+#read-heading{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.learn-button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 0.5em;
+    cursor:pointer;
+    font-weight: bold;
+    border-radius: 0;
+    transition: background-color 0.3s,color 0.3s;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 200px;
+    margin-left: 20px;
+}
+
+.learn-button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.learn-button:focus{
+    background-color: blue;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+#what-customers-say{
+    color:#fff;
+    margin-bottom: 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.testimonials{
+    background-color: #000;
+}
+
+.testimonials img{
+    height: auto;
+    width: 95%;
+    margin-left: 20px;
+}
+
+#testimonials-heading{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #d69e3d;
+    font-weight: bold;
+   padding-top: 100px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 30px;
+    background-color: #966f2c;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    color: white;
+    font-size: 0.75em;
+}
+
+.testimonials-with-pics{
+    color: white;
+    font-size: 2em; 
+}
+
+#review1 , #review2, #review3{
+    text-align: left;
+    color: white;
+}
+/*media queries*/
+/* Media Query for mobile devices (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    /* Adjusting fonts */
+    h1 {
+        font-size: 2.027rem; 
+    }
+    h2 {
+        font-size: 1.802rem;
+    }
+    h3 {
+        font-size:1.424rem; 
+    }
+    p {
+        font-size: 16px; }
+    }
+/* Media Query for tablets (min-width: 768px) */
+@media screen and (min-width: 768px) {
+    /* Adjusting fonts */
+    h1 {
+        font-size: 2.986rem; /* 47.78px */
+    }
+    h2 {
+        font-size: 2.488rem; /* 39.81px */
+    }
+    h3 {
+        font-size: 1.728rem; /* 27.65px */
+    }
+    p{
+        font-size: 1rem;/*16px*/
+    }
+}
+
+/* Media Query for desktops (min-width: 1100px) */
+@media screen and (min-width: 1100px) {
+    /* Adjusting fonts */
+    h1 {
+        font-size: 3.815rem; /* 61.04px */
+    }
+    h2 {
+        font-size: 3.052rem; /* 48.83px */
+    }
+    h3 {
+        font-size: 1.953rem; /* 31.25px */
+    }
+    p{
+        font-size: 1rem;/*16px*/
+    }
+}
