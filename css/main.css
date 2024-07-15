@@ -50,7 +50,7 @@ nav ul li{
 
 #experience {
     background-image: url('../images/hero-background.jpg');
-    position: relative;
+    position:relative;
     background-size: cover;
     background-position: center;
     color: white;
@@ -91,7 +91,7 @@ nav ul li{
 }
 
 .menu-button{
-    margin-right: 300px;
+    position: relative;
     margin-top: 250px;
     background-color: #fff;
     justify-content: center;
@@ -247,7 +247,7 @@ h6{
     left: 0;
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.3); /* Black with 30% opacity */
+    background-color: rgba(0, 0, 0, 0.4); /* Black with 40% opacity */
 }
 
  #our-menu{
